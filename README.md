@@ -52,8 +52,8 @@ All your request will be managed only by this endpoint:
 I'll provied an example of you can query your new little toy.
 
 #### @POST - save a new author
-    ```graphql
-        mutation {
+    ```
+         mutation {
             newAuthor(
               firstName: "Ken",
               lastName: "Follet"
@@ -62,8 +62,7 @@ I'll provied an example of you can query your new little toy.
       ```
       
 #### @POST - find all books
-    ```graphql
-            {
+    ```    {
               findAllBooks {
                  id
                  title
